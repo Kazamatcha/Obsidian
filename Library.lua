@@ -300,16 +300,16 @@ local Templates = {
         EnableSidebarResize = false,
         EnableCompacting = true,
         DisableCompactingSnap = false,
-        SidebarCompacted = false,
+        SidebarCompacted = true,
         MinContainerWidth = 256,
 
         --// Snapping \\--
         MinSidebarWidth = 50,
-        SidebarCompactWidth = 48,
+        SidebarCompactWidth = 70,
         SidebarCollapseThreshold = 0.5,
 
         --// Dragging \\--
-        CompactWidthActivation = 50,
+        CompactWidthActivation = 128,
     },
     Toggle = {
         Text = "Toggle",
