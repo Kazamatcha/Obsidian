@@ -282,7 +282,7 @@ local Templates = {
         Title = "No Title",
         Footer = "No Footer",
         Position = UDim2.fromOffset(6, 6),
-        Size = UDim2.fromOffset(550, 500),
+        Size = UDim2.fromOffset(570, 570),
         IconSize = UDim2.fromOffset(30, 30),
         AutoShow = true,
         Center = true,
@@ -304,7 +304,7 @@ local Templates = {
         MinContainerWidth = 256,
 
         --// Snapping \\--
-        MinSidebarWidth = 70,
+        MinSidebarWidth = 50,
         SidebarCompactWidth = 48,
         SidebarCollapseThreshold = 0.5,
 
