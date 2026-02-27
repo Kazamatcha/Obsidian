@@ -301,7 +301,7 @@ local Templates = {
         EnableCompacting = true,
         DisableCompactingSnap = false,
         SidebarCompacted = false,
-        MinContainerWidth = 256,
+        MinContainerWidth = 180,
 
         --// Snapping \\--
         MinSidebarWidth = 50,
@@ -5925,7 +5925,7 @@ function Library:CreateWindow(WindowInfo)
     local Tabs
     local Container
 
-    local InitialLeftWidth = math.ceil(WindowInfo.Size.X.Offset * 0.3)
+    local InitialLeftWidth = 90
     local IsCompact = WindowInfo.SidebarCompacted
     local LastExpandedWidth = InitialLeftWidth
 
