@@ -297,15 +297,15 @@ local Templates = {
         MobileButtonsSide = "Left",
         UnlockMouseWhileOpen = true,
 
-        EnableSidebarResize = false,
+        EnableSidebarResize = true,
         EnableCompacting = true,
         DisableCompactingSnap = false,
-        SidebarCompacted = true,
+        SidebarCompacted = false,
         MinContainerWidth = 256,
 
         --// Snapping \\--
         MinSidebarWidth = 50,
-        SidebarCompactWidth = 70,
+        SidebarCompactWidth = 48,
         SidebarCollapseThreshold = 0.5,
 
         --// Dragging \\--
