@@ -5925,7 +5925,7 @@ function Library:CreateWindow(WindowInfo)
     local Tabs
     local Container
 
-    local InitialLeftWidth = 160
+    local InitialLeftWidth = 140
     local IsCompact = WindowInfo.SidebarCompacted
     local LastExpandedWidth = InitialLeftWidth
 
