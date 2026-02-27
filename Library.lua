@@ -282,8 +282,8 @@ local Templates = {
         Title = "No Title",
         Footer = "No Footer",
         Position = UDim2.fromOffset(6, 6),
-        Size = UDim2.fromOffset(570, 570),
-        IconSize = UDim2.fromOffset(30, 30),
+        Size = UDim2.fromOffset(570, 520),
+        IconSize = UDim2.fromOffset(40, 40),
         AutoShow = true,
         Center = true,
         Resizable = true,
@@ -309,7 +309,7 @@ local Templates = {
         SidebarCollapseThreshold = 0.5,
 
         --// Dragging \\--
-        CompactWidthActivation = 128,
+        CompactWidthActivation = 50,
     },
     Toggle = {
         Text = "Toggle",
