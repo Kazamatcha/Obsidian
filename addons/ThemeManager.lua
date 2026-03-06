@@ -49,7 +49,7 @@ do
     ThemeManager.BuiltInThemes = {
         ["Default"] = {
             1,
-            { FontColor = "ffffff", MainColor = "191919", AccentColor = "431d48", BackgroundColor = "0f0f0f", OutlineColor = "282828" },
+            { FontColor = "503c46", MainColor = "120112", AccentColor = "e4aeae", BackgroundColor = "000000", OutlineColor = "240021" },
         },
         ["BBot"] = {
             2,
@@ -280,7 +280,7 @@ do
             LibraryScheme["Font"] = Font.fromEnum(Enum.Font[theme["FontFace"]])
 
         else
-            FinalTheme["FontFace"] = "Code"
+            FinalTheme["FontFace"] = "Fantasy"
             LibraryScheme["Font"] = Font.fromEnum(Enum.Font.Code)
         end
 
@@ -367,7 +367,7 @@ do
         groupbox:AddLabel("Font color"):AddColorPicker("FontColor", { Default = self.Library.Scheme.FontColor })
         groupbox:AddDropdown("FontFace", {
             Text = "Font Face",
-            Default = "Code",
+            Default = "Fantasy",
             Values = { "BuilderSans", "Code", "Fantasy", "Gotham", "Jura", "Roboto", "RobotoMono", "SourceSans" },
         })
 
