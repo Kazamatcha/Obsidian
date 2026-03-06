@@ -49,7 +49,7 @@ do
     ThemeManager.BuiltInThemes = {
         ["Default"] = {
             1,
-            { FontColor = "fffff", MainColor = "120112", AccentColor = "e4aeae", BackgroundColor = "000000", OutlineColor = "240021" },
+            { FontColor = "fffff", MainColor = "120112", AccentColor = "431d48", BackgroundColor = "000000", OutlineColor = "240021" },
         },
         ["BBot"] = {
             2,
