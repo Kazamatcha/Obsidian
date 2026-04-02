@@ -197,13 +197,17 @@ local Library = {
 
     IsLightTheme = false,
     Scheme = {
-        BackgroundColor = Color3.fromRGB(0, 0, 0),
-        MainColor = Color3.fromRGB(17, 1, 17),
-        AccentColor = Color3.fromRGB(67, 29, 72),
-        OutlineColor = Color3.fromRGB(35, 0, 33),
-        FontColor = Color3.new(1, 1, 1),
-        Font = Font.fromEnum(Enum.Font.Code),
-
+	    BackgroundColor = Color3.fromRGB(255, 250, 252), -- Soft cream
+	    MainColor = Color3.fromRGB(255, 255, 255), -- Pure white
+	    AccentColor = Color3.fromRGB(228, 174, 174), -- Matcha green
+	    OutlineColor = Color3.fromRGB(255, 220, 230), -- Light border
+	    FontColor = Color3.fromRGB(80, 60, 70), -- Dark gray text
+	    Font = Font.fromEnum(Enum.Font.BuilderSans),
+	    
+	    -- Extra colors
+	    Secondary = Color3.fromRGB(200, 220, 195), -- Light matcha
+	    Hover = Color3.fromRGB(119, 158, 113), -- Deep matcha
+	    TextLight = Color3.fromRGB(120, 120, 120), -- Light text
         RedColor = Color3.fromRGB(255, 50, 50),
         DarkColor = Color3.new(0, 0, 0),
         WhiteColor = Color3.new(1, 1, 1),
